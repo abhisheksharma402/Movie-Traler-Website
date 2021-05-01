@@ -7,7 +7,7 @@ body{
     margin: 50px 0px;
 }
 
-.heading h1{
+.heading h1, .form-heading h1{
     text-align: center;
     color: #ddd;
     margin: 40px 0;
@@ -21,4 +21,35 @@ body{
 
 #watch a{
     margin: 20px 0;
+}
+
+
+
+.form-section{
+    width: 50%;
+    margin: 50px auto;
+    color: #ddd;
+    background-color: #444;
+    padding: 50px;
+
+}
+
+
+
+@media (max-width: 767px)
+{
+    .row{
+        margin: 0;
+    }
+    .row > div{
+        margin: 50px 0px;
+    }
+    .form-section{
+        width: 75%;
+        margin: 50px auto;
+        color: #ddd;
+        background-color: #444;
+        padding: 20px;
+    
+    }
 }
